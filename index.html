@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Formulario Javascript</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <h1>Formulario Reserva de Horas</h1>
+    <form class="form-register">
+       <div class="contenedor-inputs">
+           <input type="text" id="rut" name="rut" placeholder="RUT sin punto con guión (18355543-7)" class="inputcss">
+           <input type="text" id="nombre" name="nombre" placeholder="Nombre" class="inputcss">
+           <input type="text" id="apellido" name="apellidos" placeholder="Apellidos" class="inputcss">
+           <input type="text" id="edad" name="edad" placeholder="Edad" class="inputcss">
+           <input type="email" id="correo" name="correo" placeholder="Correo" class="inputcss">
+           <select id="especialidad"class="lista_desplegable">
+            <option>Especialidad</option>
+            <option>Nutricionista</option>
+            <option>Ginecología</option>
+            <option>Traumatología</option>
+           </select>
+           <input type="text" id="fecha" name="fecha" placeholder="Fecha dd-mm-yyyy" class="inputcss">
+           <select id="hora"class="lista_desplegable">
+            <option>Hora</option>
+            <option>08:00am</option>
+            <option>09:00am</option>
+            <option>10:00am</option>
+        </select>
+        <input id="boton" value="Reservar" class="btn-enviar" >
+        <div id="mensaje-final" class="clase-mensaje"></div>
+       </div>
+
+    </form>
+
+
+    <script type="text/javascript"src="assets/js/script.js"></script>
+</body>
+
+</html>
